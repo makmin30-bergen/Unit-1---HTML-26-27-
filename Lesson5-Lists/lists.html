@@ -9,6 +9,12 @@
 
 <body>
 
+    <ul>
+        <li><a href="#subjects">Subjects</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#top">Back to Top</a></li>
+    </ul>
+
     <!-- ============================================
          U1L05 GUIDED PRACTICE — lists-practice.html
 
@@ -22,24 +28,9 @@
     <!-- ============================================
          STEP 1: A SIMPLE UNORDERED LIST
          ============================================ -->
-
-    <!-- TODO 1: Add an <h2> with id="subjects"
-             Text: My Favorite Subjects -->
-
-
-
-    <!-- TODO 2: Add a <ul> with THREE <li> items.
-         Any three subjects you actually take.
-
-         Fast way: type  ul>li*3  then press Tab. -->
-
     
-    <ul>
-        <li><a href="#subject">Subjects</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#top">Back to Top</a></li>
-    </ul>
-    <h1>My School Day</h1>
+
+    <h1 id="top">My School Day</h1>
 
     <h2 id="subjects">My Favorite Subjects</h2>
 
@@ -49,8 +40,6 @@
         <li>Programming</li>
     </ul>
 
-
-    <!-- TODO 3: Add an <hr> to close the section -->
     <hr>
 
 
@@ -59,18 +48,10 @@
          STEP 2: AN ORDERED LIST
          ============================================ -->
 
-    <!-- TODO 4: Add an <h2>
-         Text: My Morning Routine -->
     
     <h2>My Morning Routine</h2>
 
 
-    <!-- TODO 5: Add an <ol> with THREE <li> items.
-         They must be in real order — this is a routine,
-         so swapping them would break it.
-
-         Notice: the ONLY thing different from Step 1
-         is the container tag. ul became ol. -->
 
     <ol>
         <li>Wake up</li>
@@ -78,7 +59,6 @@
         <li>Catch bus</li>
     </ol>
 
-    <!-- TODO 6: Add an <hr> to close the section -->
 
     <hr>
 
@@ -90,60 +70,37 @@
          The </li> closes AFTER the inner list ends.
          ============================================ -->
 
-    <!-- TODO 7: Add an <h2> with id="schedule"
-         Text: Class Schedule -->
+        
+    <h2 id="schedule">Class Schedule</h2>
 
     <ul>
-        <li>
+        <li>Period 1
             <ul>
-                <li>Computer Science</li>
-                <li>Room 513</li>
-            </ul>
-        </li>
-        <li>
-            <ul>
-                <li>Physics</li>
-                <li>Room 123</li>
-            </ul>
-        </li>
-        <li>
-            <ol>
                 <li>Math</li>
                 <li>Room 302</li>
-            </ol>
+            </ul>
+        </li>
+        <li>Period 2
+            <ul>
+                <li>English</li>
+                <li>Room 730</li>
+            </ul>
+        </li>
+        <li>Period 3
+            <ul>
+                <li>Spanish</li>
+                <li>Room 313</li>
+            </ul>
         </li>
     </ul>
 
-
-    <!-- TODO 8: Add an <ol> with TWO <li> items:
-           Period 1
-           Period 2
-
-         Inside EACH <li>, nest a <ul> with its details.
-
-         Emmet shortcut for the whole thing:
-           ol>li*2>ul>li*3   then Tab
-         (You'll trim the extras and fill in the text.) -->
 
 
     <!-- ============================================
          STEP 4: WIRE UP THE NAVIGATION MENU
          ============================================ -->
 
-    <!-- TODO 9: Add a <ul> at the TOP of the page,
-         directly under <body>.
-
-         Three items, each containing a link:
-           <li><a href="#subjects">Subjects</a></li>
-           <li><a href="#schedule">Schedule</a></li>
-           <li><a href="#top">Back to Top</a></li> -->
-
-
-    <!-- TODO 10: Give the <h1> an id so "Back to Top"
-         has somewhere to land.
-
-         The <h1> should say: My School Day
-         And it needs  id="top"  -->
+    
 
 
 
