@@ -7,14 +7,16 @@
 </head>
 <body>
     <h1>Club Sign Up</h1>
-    <form action="#" method="GET">
+    <form action="display.html" method="GET">
         <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" required>
+        <input type="text" id="fullname" name="fullname" value="name" required>
 
         <br>
 
+        <!-- <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="you@bergen.org" required> -->
         <label for="email">Email:</label>
-        <input type="text" id="email" name="email" required>
+        <input type="text" id="email" name="email" placeholder="you@bergen.org">
 
         <br>
 
@@ -34,7 +36,7 @@
             <legend>Select Your Grade Level</legend>
 
             <label for="grade-9">Grade 9</label>
-            <input type="radio" name="grade" id="grade-9">
+            <input type="radio" name="grade" id="grade-9" value="9">
 
             <br>
 
@@ -63,6 +65,28 @@
             <label for="grade-9">Grade 9</label>
             <input type="checkbox" name="grade" id="grade-9">
         </fieldset>
+
+        <fieldset>
+            <legend>Which days can you meet?</legend>
+
+            <label for="mon">Monday</label>
+            <input type="checkbox" name="days" id="mon">
+
+            <label for="tue">Tuesday</label>
+            <input type="checkbox" name="days" id="tue">
+
+            <label for="wed">Wednesday</label>
+            <input type="checkbox" name="days" id="wed">
+
+        </fieldset>
+
+        <br>
+
+        <label for="why">Why do you want to join?</label>
+        <br>
+        <textarea name="why" id="why" rows="2"></textarea>
+
+        <br>
 
 
         <button type="submit">Join the Club</button>
