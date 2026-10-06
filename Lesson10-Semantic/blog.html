@@ -40,34 +40,39 @@
 
     <!-- 1 ▸ a header with the site title in an h1 -->
     <header>
-        <h1>Sam's Blog</h1>
+        <h1 id="home">Sam's Blog</h1>
     </header>
 
     <!-- 2 ▸ a nav with three links -->
     <nav>
-        Home · Posts · About
+        <a href="#home">Home</a> · <a href="#posts">Posts</a> · <a href="#about">About</a>
     </nav>
     
 
     <!-- 3 ▸ one main holding two articles — each post gets an h2 and a p -->
-    <main>
+    <main id="posts">
     <article>
         <h2>Post one</h2>
         <p>…</p>
     
     </article>
+
     <article>
-        Post two
+        <h2>Post two</h2>
+        <p>…</p>
     </article>
-    …
     </main>
 
     <!-- 4 ▸ an aside for the about box -->
     
-    <aside>About me…</aside>
+    <aside id="about">
+        <p>About me…</p>
+    </aside>
 
     <!-- 5 ▸ a footer with the copyright -->
-    <footer>© 2026 Sam</footer>
+    <footer>
+        <p>© 2026 Sam</p>
+    </footer>
 </body>
 
 </html>
